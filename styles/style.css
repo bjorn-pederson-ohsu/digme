@@ -1,0 +1,133 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	background-color:#7f3631;
+	/*background-image:url(../images/bg.jpg);*/
+	padding: 0px; 
+	margin-top: 0px;
+}
+h1 {
+	font-family:Arial, Helvetica, sans-serif;	
+	font-size: 20pt;
+	color: #598527;
+}
+p {
+	font-family:Arial, Helvetica, sans-serif;	
+	font-size: 12pt;
+	color:#362f2d;
+}
+#siteContainer {
+	margin-top: 0px;
+	margin-left: auto;  
+	margin-right: auto;
+	width: 960px;
+	text-align: left;
+	-moz-box-shadow: #333333 0px 0px 25px;
+    -webkit-box-shadow: #333333 0px 0px 25px;
+}
+#navbar {
+	margin: 0px; 
+	width: 960px; 
+	height: 62 px;
+	background-color:#736357;
+}
+
+#navbar p {
+	padding-top: 15px; 
+	padding-bottom: 15px;
+	padding-left: 15px;
+	padding-right: 15px;
+	margin: 0px;
+	text-align: center;
+	font-family:Arial, Helvetica, sans-serif;	
+	font-size: 14pt;
+	color:#ffffff;
+}
+
+#mainContent {
+	background-color:#f3f1f0;
+	margin: 0px;
+	padding: 0px;
+	width: 960px;
+	text-align: left;
+}
+
+#mainContent a{
+padding: 0px; 
+	color: #ffffff;
+	text-decoration: none;
+	border-style: none; 
+}
+
+#mainContent a:Hover{
+color: #c7b299
+}
+
+#section {
+	padding: 0px; 
+	margin: 0px; 
+	width: 960px;
+	min-height: 210px;
+	background-color:#ffe895;
+	
+}
+
+
+ #sePhoto {
+	position: relative;
+	float: left;
+	padding: 15px 65px 15px 65px; 
+	margin: 0px;
+	width: 270px;
+}
+
+#sePhoto img {
+	border:none;
+	-moz-box-shadow: #333333 0px 0px 25px;
+    -webkit-box-shadow: #333333 0px 0px 25px;
+	}
+
+#seDes {
+	position:relative;
+	float:right;
+	padding: 15px 22px 15px 22px; 
+	margin: 0px 0px 0px 0px;
+	width: 516px;
+	min-height: 182px;
+	background-color: #7f734a;
+}
+#seDes h1 {
+	padding: 0px; 
+	margin: 0px;
+	font-family:Arial, Helvetica, sans-serif;	
+	font-size: 22pt;
+	color: #ffffff;
+	border-style: dotted;
+	border-width:0px 0px 1px 0px;
+	
+}	
+
+#seDes p {
+	padding: 0px; 
+	margin: 15px 0px 15px 0px;
+	line-height: 1.5;
+	font-family:Arial, Helvetica, sans-serif;	
+	font-size: 12pt;
+	color: #ffffff;
+	/*text-indent: 10pt;*/
+	word-spacing: 1 em;
+}
+
+#seClear {
+	clear:both;
+}
+
+#bottomInfo {
+	float: left;
+	padding: 0px; 
+	margin: 0px; 
+	width: 960px;
+	height: 30 px;
+	background-color:#ccaa3a;
+}
